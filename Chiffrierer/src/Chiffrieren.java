@@ -2,15 +2,9 @@
 public class Chiffrieren 
 
 {
-	
-	
-	
-	
-	
-
 	public String chiffrierenCA (String inputtext, int schlüssel)
 	{
-		String ergVer= " ";
+		String ergVer= "";
 		for(int i = 0; i<inputtext.length(); i++)
 		{
 			
@@ -25,14 +19,10 @@ public class Chiffrieren
 		
 	}
 		
-
-	
-	
-	
 	public String dechiffrierenCA (String ergVer, int schlüssel)
 	{
 		String text = ergVer;
-		String ergEnt = " ";
+		String ergEnt = "";
 		System.out.println(ergVer);
 		
 		for(int i = 0; i<text.length(); i++)
@@ -47,10 +37,4 @@ public class Chiffrieren
 		return ergEnt;
 		
 	}
-
-
-
-	
-	
-	
 }
